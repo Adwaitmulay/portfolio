@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adwait Mulay — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Adwait Mulay</div>
+
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger">☰</button>
+    </nav>
+  </header>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+
+      <!-- greeting -->
+      <p class="greeting">Hi there, I am</p>
+
+      <!-- name -->
+      <h1 class="my-name">Adwait Mulay</h1>
+
+      <!-- what i am -->
+      <p class="my-role">First Year CS Student &amp; Beginner Developer</p>
+
+      <!-- honest one liner -->
+      <p class="my-desc">
+        I am still figuring out what I want to build — but I enjoy writing code
+        and learning something new every day. Currently exploring C, C++ and Web Development.
+      </p>
+
+      <!-- buttons -->
+      <div class="hero-btns">
+        <a href="#projects" class="btn-primary">View My Projects</a>
+        <a href="#contact" class="btn-outline">Contact Me</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section class="about" id="about">
+    <div class="section-container">
+
+      <h2 class="section-title">About Me</h2>
+      <div class="underline"></div>
+
+      <div class="about-grid">
+
+        <!-- left — text -->
+        <div class="about-text">
+          <p>
+            I am a first year Computer Science student at
+            <strong>Deccan Education Society's College of Engineering, Pune, Maharashtra.</strong>
+          </p>
+          <br />
+          <p>
+            I started coding just a few months ago. I began with C, moved to C++,
+            and now I am learning HTML, CSS and JavaScript. I love building small
+            projects that actually work — it gives me a lot of satisfaction.
+          </p>
+          <br />
+          <p>
+            I am still early in my journey and honestly still exploring what area
+            of computer science excites me the most. But I show up every day and write code.
+          </p>
+          <br />
+          <!-- small info cards -->
+          <div class="info-cards">
+            <div class="info-card">
+              <span class="info-icon">🎓</span>
+              <span>First Year — B.E. Computer Science</span>
+            </div>
+            <div class="info-card">
+              <span class="info-icon">📍</span>
+              <span>Pune, Maharashtra</span>
+            </div>
+            <div class="info-card">
+              <span class="info-icon">💻</span>
+              <span>Currently learning Web Development</span>
+            </div>
+            <div class="info-card">
+              <span class="info-icon">📧</span>
+              <span>adwait.mulay071@gmail.com</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- right — quick stats -->
+        <div class="about-stats">
+          <div class="stat-box">
+            <h3>6+</h3>
+            <p>Projects Built</p>
+          </div>
+          <div class="stat-box">
+            <h3>3</h3>
+            <p>Languages Known</p>
+          </div>
+          <div class="stat-box">
+            <h3>1st</h3>
+            <p>Year of College</p>
+          </div>
+          <div class="stat-box">
+            <h3>∞</h3>
+            <p>Things to Learn</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS SECTION ========== -->
+  <section class="skills" id="skills">
+    <div class="section-container">
+
+      <h2 class="section-title">My Skills</h2>
+      <div class="underline"></div>
+      <p class="section-sub">These are the technologies I have worked with so far</p>
+
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-icon">⚙️</div>
+          <h3>C</h3>
+          <p>My first programming language. Used it to build a number guessing game.</p>
+          <div class="skill-level">
+            <div class="skill-bar" style="width: 60%;"></div>
+          </div>
+          <span class="skill-label">Beginner — Comfortable</span>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🔧</div>
+          <h3>C++</h3>
+          <p>Built a calculator and a JARVIS AI bot using C++. Learning OOP concepts.</p>
+          <div class="skill-level">
+            <div class="skill-bar" style="width: 55%;"></div>
+          </div>
+          <span class="skill-label">Beginner — Learning</span>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🌐</div>
+          <h3>HTML</h3>
+          <p>Used in all my web projects. Understand semantic tags and page structure.</p>
+          <div class="skill-level">
+            <div class="skill-bar" style="width: 70%;"></div>
+          </div>
+          <span class="skill-label">Beginner — Getting Good</span>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🎨</div>
+          <h3>CSS</h3>
+          <p>Used Flexbox, Grid and media queries to make responsive pages.</p>
+          <div class="skill-level">
+            <div class="skill-bar" style="width: 60%;"></div>
+          </div>
+          <span class="skill-label">Beginner — Comfortable</span>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">📜</div>
+          <h3>JavaScript</h3>
+          <p>Used for form validation, DOM manipulation and localStorage in my projects.</p>
+          <div class="skill-level">
+            <div class="skill-bar" style="width: 45%;"></div>
+          </div>
+          <span class="skill-label">Beginner — Still Learning</span>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🐙</div>
+          <h3>Git &amp; GitHub</h3>
+          <p>All my projects are on GitHub. Learning version control slowly.</p>
+          <div class="skill-level">
+            <div class="skill-bar" style="width: 40%;"></div>
+          </div>
+          <span class="skill-label">Beginner — Basic Usage</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS SECTION ========== -->
+  <section class="projects" id="projects">
+    <div class="section-container">
+
+      <h2 class="section-title">My Projects</h2>
+      <div class="underline"></div>
+      <p class="section-sub">Small projects I have built while learning to code</p>
+
+      <div class="projects-grid">
+
+        <!-- Project 1 — JARVIS -->
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon">🤖</div>
+            <div class="project-links">
+              <a href="https://adwaitmulay.github.io/jarvis-voice-assistant/" target="_blank">Live ↗</a>
+              <a href="https://github.com/Adwaitmulay/jarvis-voice-assistant" target="_blank">Code ↗</a>
+            </div>
+          </div>
+          <h3>JARVIS AI Bot</h3>
+          <p>An AI chatbot with chat interface, calculator tab and live news. Built using C++ logic and HTML. No API used — all pre-programmed responses.</p>
+          <div class="project-tags">
+            <span>C++</span>
+            <span>HTML</span>
+            <span>JavaScript</span>
+          </div>
+        </div>
+
+        <!-- Project 2 — Bank -->
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon">🏦</div>
+            <div class="project-links">
+              <a href="https://adwaitmulay.github.io/bank-management-system/" target="_blank">Live ↗</a>
+              <a href="https://github.com/Adwaitmulay/bank-management-system" target="_blank">Code ↗</a>
+            </div>
+          </div>
+          <h3>Bank Management System</h3>
+          <p>A web based banking system where you can create accounts, deposit, withdraw, transfer money and view transaction history. Data saved using localStorage.</p>
+          <div class="project-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </div>
+
+        <!-- Project 3 — Landing Page -->
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon">🌍</div>
+            <div class="project-links">
+              <a href="https://adwaitmulay.github.io/globaltrade-landing-page/" target="_blank">Live ↗</a>
+              <a href="https://github.com/Adwaitmulay/globaltrade-landing-page" target="_blank">Code ↗</a>
+            </div>
+          </div>
+          <h3>GlobalTrade Landing Page</h3>
+          <p>A responsive landing page for an Import Export startup. Has navbar, hero, services, testimonials and contact form with JS validation. Mobile responsive.</p>
+          <div class="project-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </div>
+
+        <!-- Project 4 — Auth -->
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon">🔐</div>
+            <div class="project-links">
+              <a href="https://adwaitmulay.github.io/-Authentication-System/" target="_blank">Live ↗</a>
+              <a href="https://github.com/Adwaitmulay/-Authentication-System" target="_blank">Code ↗</a>
+            </div>
+          </div>
+          <h3>Authentication System</h3>
+          <p>Login and Signup system with form validation, password strength checker and protected dashboard. User data stored in localStorage.</p>
+          <div class="project-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </div>
+
+        <!-- Project 5 — Calculator -->
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon">🧮</div>
+            <div class="project-links">
+              <a href="https://adwaitmulay.github.io/calculator/" target="_blank">Live ↗</a>
+              <a href="https://github.com/Adwaitmulay/calculator" target="_blank">Code ↗</a>
+            </div>
+          </div>
+          <h3>Calculator</h3>
+          <p>A console based calculator in C++ that does 5 arithmetic operations. My first proper C++ project. Handles division by zero and invalid inputs.</p>
+          <div class="project-tags">
+            <span>C++</span>
+          </div>
+        </div>
+
+        <!-- Project 6 — Number Game -->
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon">🎮</div>
+            <div class="project-links">
+              <a href="https://adwaitmulay.github.io/number-guessing-game/" target="_blank">Live ↗</a>
+              <a href="https://github.com/Adwaitmulay/number-guessing-game" target="_blank">Code ↗</a>
+            </div>
+          </div>
+          <h3>Number Guessing Game</h3>
+          <p>A CLI game in C with 2 difficulty levels — Easy and Hard. Uses rand() for random numbers and handles all invalid inputs.</p>
+          <div class="project-tags">
+            <span>C</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section class="contact" id="contact">
+    <div class="section-container">
+
+      <h2 class="section-title">Contact Me</h2>
+      <div class="underline"></div>
+      <p class="section-sub">Feel free to reach out — I am always open to learning and connecting</p>
+
+      <div class="contact-wrapper">
+
+        <!-- left — contact info -->
+        <div class="contact-info">
+          <div class="contact-item">
+            <span class="contact-icon">📧</span>
+            <div>
+              <p class="contact-label">Email</p>
+              <a href="mailto:adwait.mulay071@gmail.com">adwait.mulay071@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">🐙</span>
+            <div>
+              <p class="contact-label">GitHub</p>
+              <a href="https://github.com/Adwaitmulay" target="_blank">github.com/Adwaitmulay</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">💼</span>
+            <div>
+              <p class="contact-label">LinkedIn</p>
+              <a href="https://linkedin.com/in/adwait-mulay-3b110a37a" target="_blank">Adwait Mulay</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">📍</span>
+            <div>
+              <p class="contact-label">Location</p>
+              <p>Pune, Maharashtra, India</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- right — contact form -->
+        <div class="contact-form">
+          <div class="input-group">
+            <label>Your Name</label>
+            <input type="text" id="c-name" placeholder="Enter your name" />
+          </div>
+          <div class="input-group">
+            <label>Your Email</label>
+            <input type="email" id="c-email" placeholder="Enter your email" />
+          </div>
+          <div class="input-group">
+            <label>Message</label>
+            <textarea id="c-message" rows="4" placeholder="Write your message here"></textarea>
+          </div>
+          <button class="btn-primary" onclick="sendMessage()">Send Message</button>
+          <p id="contact-msg"></p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <p>Built by <strong>Adwait Mulay</strong> — First Year CS Student, Pune</p>
+    <p class="footer-sub">Made with HTML, CSS and JavaScript ☕</p>
+    <div class="footer-links">
+      <a href="https://github.com/Adwaitmulay" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/adwait-mulay-3b110a37a" target="_blank">LinkedIn</a>
+      <a href="mailto:adwait.mulay071@gmail.com">Email</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
